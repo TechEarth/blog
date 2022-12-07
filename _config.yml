@@ -5,7 +5,7 @@ theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
 # and doesn't have a custom domain.
-baseurl: '/blog'
+baseurl: ''
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -22,7 +22,7 @@ timezone: Asia/Kolkata
 # ↓ --------------------------
 
 title: Samir Paul                          # the main title
-tagline: Technical Blog
+tagline: Software Engineer
 
 description: >-                        # used by seo meta and the atom feed
   Technical blog made by developer for developers. Computer Science, Data Structures Algorithms, Networking, Artificial Intelligence and Coding Interview Prep.
@@ -108,24 +108,24 @@ regenerate: true
 incremental: true
 
 comments:
-  active:         'giscus' # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
+  active:         'disqus' # The global switch for posts comments, e.g., 'disqus'.  Keep it empty means disable
   # The active options are as follows:
   disqus:
-    shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+    shortname:    samirpaul # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
     repo:         # <gh-username>/<repo>
     issue_term:   # < url | pathname | title | ...>
   # Giscus options › https://giscus.app
   giscus:
-    repo:             'SamirPaulb/comments'
-    repo_id:          'R_kgDOIMPz0Q'
-    category:         'General'
-    category_id:      'DIC_kwDOIMPz0c4CR7E4'
-    mapping:          'pathname'
-    input_position:   'top'
-    lang:             'en'
-    loading:          'lazy'
+    repo:             # 'SamirPaulb/comments'
+    repo_id:          # 'R_kgDOIMPz0Q'
+    category:         # 'General'
+    category_id:      # 'DIC_kwDOIMPz0c4CR7E4'
+    mapping:          # 'pathname'
+    input_position:   # 'top'
+    lang:             # 'en'
+    loading:          # 'lazy'
 
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
@@ -158,7 +158,7 @@ gzip:
 #   images_path: "/assets/img/**/*.{gif,png,jpg,jpeg,svg}"
 
 
-paginate: 10
+paginate: 5
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -206,23 +206,23 @@ defaults:
   - scope:
       path: assets/js/dist
     values:
-      swcache: true
-
+      swcache: true 
+    
 # ---- Jekyll-Compose ---------
-jekyll_compose:
-  default_front_matter: 
-    posts:
-      description: New Post Title 
-      image:
-        path: /assets/img/blog-featured-image.webp
-        width: 661    # in pixels
-        height: 132   # in pixels
-        alt: New Post Title     
-      category: [Blog]
-      tags: [blog, coding, computer-science]
-      published: true
-      sitemap: true
-      pin: false
+# jekyll_compose:
+#   default_front_matter: 
+#     posts:
+#       description: New Post Title 
+#       image:
+#         path: /assets/img/blog-featured-image.webp
+#         width: 661    # in pixels
+#         height: 132   # in pixels
+#         alt: New Post Title     
+#       category: [Blog]
+#       tags: [blog, coding, computer-science]
+#       published: true
+#       sitemap: true
+#       pin: false
 
 
 sass:
@@ -262,15 +262,14 @@ jekyll-archives:
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-include-cache
   - jekyll-target-blank
-  - jekyll-gzip
   - jekyll-loading-lazy
-  
+  - jekyll-gzip
   # - jekyll-compress-images
   # - amp-jekyll

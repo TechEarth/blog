@@ -8,7 +8,7 @@ image:
   height: 132
   alt: Data Structures and Algorithms for Coding Interview
 categories: [Data Structures and Algorithms]
-tags: [blog, coding, computer-science, data-structures-and-algorithms-for-coding-interview,data-structures,algorithms,interview,coding-interview,dsalgo,leetcode,gfg,geeksforgeeks,dynamic-programming,sorting-algorithms,linkedList,object-oriented-programming,binary-trees,graph-algorithms,heap,matrix,trie,binary-search,backtracking,stack,queue,greedy,string,bit-manipulation,array,hashmap,dfs,bfs,two-pointers,math,recursion,codechef,codeforces,hackerrank,dsa,coding]
+tags: [blog, coding, computer-science, data-structures-and-algorithms-for-coding-interview,data-structures,algorithms,interview,coding-interview,dsalgo,leetcode,gfg,geeksforgeeks,dynamic-programming,sorting-algorithms,linkedList,object-oriented-programming,binary-trees,graph-algorithms,heap,matrix,trie,binary-search,backtracking,stack,queue,greedy,string,bit-manipulation,array,hashmap,dfs,bfs,two-pointers,math,recursion,codechef,codeforces,hackerrank,dsa]
 published: true
 sitemap: true
 pin: false
@@ -53,11 +53,16 @@ In various folders of the above topics, you can find questions and concepts rela
 
 - There is a collection of books and pdfs on various important computer science fundamentals in the [**BOOKS-and-PDFs**](https://github.com/SamirPaul1/DSAlgo/tree/main/BOOKS-and-PDFs) directory.📚
 
+
+![DSAlgo repo](/assets/img/repository-image-dsalgo-samirpaul1-leetcode-post.jpeg "DSAlgo repository")
+
 I am continuously trying to improve this repository by adding new questions and concepts related to the respective topic. Please feel free to contribute to this repository.💻
 
 <div align="center">
-<b>View this repository with improved user experience▶️https://samirpaul1.github.io/DSAlgo</b>🚀
+<b>View this repository with improved user experience▶️<a href="https://samirpaul1.github.io/DSAlgo">https://samirpaul.in/DSAlgo</a></b>🚀
 </div>
+
+![DSA Online VSCode](/assets/img/samirpaul.in-DSAlgo-demo.png "DSA Online VSCode")
 
 **Things you can contribute to:**
 - Update the existing solution with a better one (better complexity).

@@ -2,8 +2,8 @@
 
 source "https://rubygems.org"
 
-gem "jekyll-theme-chirpy", "~> 5.3", ">= 5.3.1"
-
+gem "jekyll-theme-chirpy", "~> 5.3", ">= 5.3.2"
+ 
 group :test do
   gem "html-proofer", "~> 3.18"
 end
@@ -11,7 +11,7 @@ end
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
-  gem "tzinfo", "~> 1.2"
+  gem "tzinfo", "~> 2.0"
   gem "tzinfo-data"
 end
 
@@ -25,17 +25,18 @@ gem "webrick", "~> 1.7"
 # Extended features
 # gem 'jekyll-seo-tag'  
 gem 'jekyll-target-blank'
-gem 'jekyll-sitemap'
-gem 'jekyll-paginate'
 gem 'jekyll-gist'
-gem 'jekyll-feed'
 gem 'jemoji'
 gem 'jekyll-include-cache'
-gem 'jekyll-compose', group: [:jekyll_plugins]
 gem 'thor'
 gem 'stringex'
-gem 'jekyll_picture_tag', '~> 2.0'
 gem 'jekyll-loading-lazy'
+
+gem 'jekyll-compose', group: [:jekyll_plugins]
+gem 'jekyll-feed'
+gem 'jekyll-sitemap'
+gem 'jekyll-paginate'
+gem 'jekyll_picture_tag', '~> 2.0'
 
 # gem 'jekyll-compress-images'  # not need as 'Imgbot' installed in the repo
 # gem 'amp-jekyll', '~> 1.0', '>= 1.0.2'

@@ -1,5 +1,6 @@
 ---
 layout: tags
+title: All Tags
 icon: fas fa-tag
-order: 2
+order: 4
 ---
